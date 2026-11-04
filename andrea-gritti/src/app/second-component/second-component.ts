@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
 
 @Component({
-  imports: [],
   selector: 'app-second-component',
-  styleUrl: './second-component.css',
+  imports: [],
   templateUrl: './second-component.html',
+  styleUrl: './second-component.css'
 })
-export class SecondComponent {}
+export class SecondComponent {
+}
