@@ -6,4 +6,6 @@ import { Component } from '@angular/core';
   styleUrl: './fourth-component.css',
   templateUrl: './fourth-component.html',
 })
-export class FourthComponent {}
+export class FourthComponent {
+  name = 'quarto';
+}

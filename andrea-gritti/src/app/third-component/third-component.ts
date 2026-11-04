@@ -8,4 +8,5 @@ import { FourthComponent } from '../fourth-component/fourth-component';
   styleUrl: './third-component.css'
 })
 export class ThirdComponent {
+  name = 'terzo';
 }

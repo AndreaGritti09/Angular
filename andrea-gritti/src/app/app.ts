@@ -9,5 +9,6 @@ import { ThirdComponent } from './third-component/third-component';
   templateUrl: './app.html',
 })
 export class App {
+  name = 'app';
   protected readonly title = signal('andrea-gritti');
 }
